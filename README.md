@@ -8,4 +8,7 @@ Then, you can simply define your state machine as seen in the MainDriver folder.
 
 ## Compiling and Running ##
 
-```mkdir build```
+```
+mkdir build
+cd build
+```
