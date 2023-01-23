@@ -11,4 +11,14 @@ Then, you can simply define your state machine as seen in the MainDriver folder.
 ```
 mkdir build
 cd build
+cmake ..
+make
+cd MainDriver
+./primeProject
+```
+
+## Adding a new State ##
+Since each state is going to be formatted the same, a Python script called writestate.py can be used to automatically generate this boilerplate and add it to the CMakeLists.txt. Go into the main directory and run the following
+```
+python writestate.py -n <STATE_NAME>
 ```
